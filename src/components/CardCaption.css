@@ -1,0 +1,22 @@
+.card--caption {
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #222222;
+    margin-bottom: 0.75rem;
+}
+
+hr {
+    width: 10em;
+    border: none;
+    border-top: solid 1px #ccc;
+    margin: 0.5rem auto 0.75rem;
+}
+
+p {
+    color: #777777;
+    line-height: 1.5;
+}

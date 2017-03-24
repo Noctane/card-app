@@ -1,0 +1,21 @@
+.card--head {
+    position: relative;
+
+}
+
+img {
+    display: block;
+    border-radius: 3px 3px 0 0;
+}
+
+.card--categ {
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    background: #f99000;
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.8em;
+    padding: 2px 8px;
+    text-transform: uppercase;
+}
