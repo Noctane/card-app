@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './CardCaption.css';
 import CardButton from './CardButton';
+import {projects} from './Projects';
+
 
 class CardCaption extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: 'Street',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem rem ratione culpa adipisci ullam.'
-        };
-    }
+
+    state = {
+        title: projects[0].title,
+        desc: projects[0].desc,
+    };
 
     render() {
-        return(
+        return (
             <div className="card--caption">
                 <h3>{ this.state.title }</h3>
                 <hr/>

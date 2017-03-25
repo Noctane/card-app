@@ -4,11 +4,12 @@ import CardHead from "./components/CardHead";
 import CardCaption from "./components/CardCaption";
 
 class App extends Component {
+
   render() {
     return (
       <div className="card">
         <CardHead/>
-        <CardCaption/>
+        <CardCaption />
       </div>
     );
   }
